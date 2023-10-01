@@ -1,0 +1,138 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/* Color scheme hexadecimal values: A882E8 9288F2 8694DC 88B5F2 82C9E8 */
+/* The body tag style applies to all elements on the page */
+body {
+    background: -moz-linear-gradient(right, #82C9E8 0%, #A882E8 100%);
+    background: -webkit-linear-gradient(right, #82C9E8 0%, #A882E8 100%);
+    background: -o-linear-gradient(right, #82C9E8 0%, #A882E8 100);
+    background: linear-gradient(to right, #82C9E8 0%, #A882E8 100);
+    font-family: Verdana, Geneva, Arial, sans-serif;
+    padding:0px;
+    margin:0px;
+    background-color: black;
+    font-family: Verdana, Geneva, Arial, sans-serif;
+    padding:0px;
+    margin:0px;
+}
+/* The wrapper ID style is used with a div tag to provide a 960px wide page */
+#wrapper {
+    width: 960px;height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    background-color:#8694DC;
+}
+/* The right-column ID style is floated right */
+#right-column {
+    float: right;
+    width: 600px;height: 600px;
+    background-color:LightGray;
+}
+/* The left-column ID style is floated left */
+#left-column {
+    float: left;
+    width: 360px;background-color:silver;
+    height:600px;
+}
+/* Defining a style for a set of tags separated by commas applies the style to
+all tags */
+h1,h2,h3,h4,h5,h6,p,li {
+    margin-left:15px;
+}
+#footer {
+    height:80px;
+}
+#banner{
+    height:120px;
+    background-color:SlateGrey;
+}
+/* Defining a style for a set of tags not separated by commas applies the style
+only to all tags within the preceding tag*/
+#banner h1 {
+color: white;
+}
+/* Advanced Web design relies on class or ID styles, never tables */
+.box {
+    background-color: #82C9E8;
+    height: 100px;
+    width: 100px;
+    float: left;
+    margin: 15px;
+    padding: 25px;
+    opacity:.5;
+}
+/* The following pseudo-class applies to the box class when in a hovered state */
+.box:hover {
+    background-color:white;
+    opacity:1;
+}
+/* This clear class style terminates float */
+.clear{
+    clear: both;
+}
+
+video {
+    width: 200px;
+    padding: 15px;
+    margin: 15px;
+    background-color:black;
+    border:2px white solid;
+    box-shadow: 10px 10px 5px black;
+}
+
+button {
+    background-color:#3D4899;
+    color:white;
+    height:40px;
+    border:2px white solid;
+    box-shadow: 10px 10px 5px black;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #962EFF;
+    color:black;
+    height:40px;
+    border:2px white solid;
+    box-shadow: -10px -10px 5px black;
+    border-radius: 5px;
+}
+
+header, footer {
+    background: -moz-linear-gradient(45deg, #88B5F2 0%, #9288F2 100%);
+    background: -webkit-linear-gradient(45deg, #88B5F2 0%, #9288F2 100%);
+    background: -o-linear-gradient(45deg, #88B5F2 0%, #9288F2 100);
+    background: linear-gradient(to 45deg, #88B5F2 0%, #9288F2 100);
+    color: beige;
+    padding-top:5px;
+    padding-bottom:5px;
+}
+
+aside {
+    background-color: beige;
+    float: right;
+    width: 300px;
+    margin: 5px;
+    padding: 5px;
+}
+
+mark {
+    background-color:aqua;
+}
+
+figure {
+    position:relative;
+    width:220px;
+    height:220px;
+    background-color:white;
+    margin:5px;
+    padding:5px;
+    border:1px solid black;
+}
+
+figcaption {
+    position:bottom;
+    background-color:black;
+    color:white;
+}

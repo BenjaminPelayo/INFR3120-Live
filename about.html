@@ -1,0 +1,75 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<link href="style.css" rel="stylesheet" type="text/css">
+<title> Ben Pelayo - About </title>
+<meta name="viewport" content="width=device-width"> <!-- VERY IMPORTANT LINE: causes device to report true width-->
+<!-- full-size monitor style sheet-->
+<link href="style.css" rel="stylesheet" type="text/css" media="only screen and
+(min-width:960px)">
+<!-- tablet style sheet-->
+<link href="tablet.css" rel="stylesheet" type="text/css" media="only screen and
+(min-width:481px) and (max-width:960px)">
+<!-- phone style sheet-->
+<link href="phone.css" rel="stylesheet" type="text/css" media="only screen and
+(max-width:480px)">
+</head>
+<body>
+<div id="wrapper">
+    <header>
+        <h1>Benjamin Pelayo's Portfolio</h1>
+        <nav> <!-- the nav bar contains links to every other page -->
+            <h4>
+            <a class="button" href="index.html">Home</a> |
+            <a class="button" href="about.html">About Me</a> |
+            <a class="button" href="Projects.html">Projects</a> |
+            <a class="button" href="contact.html">Contact</a>
+            </h4>
+        </nav>
+    </header>
+    <article> 
+        <aside>
+            <p>A picture of me enjoying a drink in Cuba</p>
+            <figure>
+                <img src="pfp.png" height="220" width="220"> <!-- Resized orginal image from 915x915 to something a little more reasonable -->
+            </figure>
+        </aside>
+        <h3>Hello world!</h3>
+        <p>My name is Bernardo Benjamin Pelayo, but everyone calls me Ben. 
+            I am a fourth year Business Technology Management (FBIT) major at Ontario Tech University.</p>
+        <section>
+            <h3>Experience</h3>
+            <p>Software development Intern at Diffraction Limited (Summer 2019 and 2020)</p>
+            <p>Accounting Assistant at Re:Sound Music Licensing Company (summer 2023)</p>
+        </section>
+        <section> 
+            <h3>Hobbies and Interests</h3>
+            <p>Former Royal Canadian Army Cadet (Master Warrant Officer)</p>
+            <p>Qualified Expedition Instructor for back country biking, hiking, and canoe (Charlie Company, CSTC Blackdown, 2016)</p>
+            <p>Three time provincial DECA medalist (Restaurant and Hospitality Management Category)</p>
+            <p>HATT Capture the Flag security competition @ Carleton University (2019)</p>
+        </section>
+        <video width="320" height="240" controls preload id="video" poster="thumb.jpeg"> <!-- two formats provided for compatibility -->
+            <source src="video.mp4" type="video/mp4">
+            <source src="video.mp4" type="video/ogg">
+            If you can't see this video, it is because your browser does not support HTML5! <!-- error message -->
+        </video>
+    </article>
+    <footer> 
+        <h5>© 2023 by Bernardo Benjamin Pelayo</h5>
+        <nav>
+            <h4>
+                <a class="button" href="index.html">Home</a> |
+                <a class="button" href="about.html">About Me</a> |
+                <a class="button" href="Projects.html">Projects</a> |
+                <a class="button" href="contact.html">Contact</a>
+            </h4>
+        </nav>
+        <address>
+            <p>Contact me at <a href="mailto:bernardo.pelayo@ontariotechu.net">bernardo.pelayo@ontariotechu.net</a></p>
+        </address>            
+    </footer>
+</div>
+</body>
+</html>
